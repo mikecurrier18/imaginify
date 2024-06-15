@@ -173,8 +173,8 @@ const TransformationForm = ({
           [fieldName === "prompt" ? "prompt" : "to"]: value,
         },
       }));
+    }, 1000)();
       return onChangeField(value);
-    }, 1000);
   };
 
   const onTransformHandler = async () => {
